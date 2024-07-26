@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loan-Calculator</title>
+    <link rel="stylesheet" href="loan calculator.css">
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <h1 class="invert">Loan-Calculator</h1>
+            <br>
+            <br>
+            <p class="invert"> Amount
+                
+                <input type="number" name="Amount" id="Amount" placeholder="Enter Amount" onchange="loancalculate()">
+            </p>
+            <br>
+            
+            <p class="invert"> Intrest-Rate
+                
+                <input type="number" name="intrest" id="rate" placeholder="Enter Intrest-Rate" onchange="loancalculate()">
+            </p>
+            <br>
+            
+            <p class="invert"> Months to pay
+                
+                <input type="number" name="months" id="months" placeholder="Enter Months To Pay" onchange="loancalculate()">
+            </p>
+            <br>
+           
+            <h2 id="total" class="invert" ></h2>
+
+        </div>
+    </div>
+
+    <script src="loan calculator.js"></script>
+</body>
+</html>
